@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: hello-world-java-maven-web-spring-boot
+Implementation-Version: 1.0.1.RELEASE
+Built-By: USER
+Implementation-Vendor-Id: com.imranmadbar
+Build-Jdk: 1.8.0_65
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/hello-world-java-maven-web-spring-boot
+Created-By: Maven Integration for Eclipse
+
