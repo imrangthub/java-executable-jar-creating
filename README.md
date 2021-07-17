@@ -1,3 +1,38 @@
+
+
+#Java file to Class
+
+Class
+---------------------------
+    import java.util.ArrayList;
+    import java.util.List;
+
+    public class MyMainCls {
+      public static void main(String[] args ){
+        System.out.println("MyMain Start successfully done !");
+        System.out.println();
+        List<String> strList = new ArrayList<String>();
+
+        strList.add("MyValue1");
+        strList.add("MyValue2");
+        strList.add("MyValue3");
+
+        for(String val:strList) {
+          System.out.println(val);
+        }
+        
+      }
+    }
+    
+    
+Comment:
+------------------
+=>javac MyMainCls.java
+=>java MyMainCls
+
+
+
+
 # java-executable-jar-creating
 Different way an Executable Java Jar creation.
 
