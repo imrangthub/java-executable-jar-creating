@@ -55,3 +55,14 @@ cvfm means "create a jar; show verbose output; specify the output jar file name;
 Actually, if your manifest contains only the Main-Class directive, you can specify the main class directly on the jar.exe's command line, using the e switch, instead of m.  Then you do not need a separate manifest file; jar will add the required manifest to your jar file for you. For example:
 
 C\mywork> jar cvfe MyJarName.jar MyMainClass *.class
+
+
+View sources of used Java classes in IntelliJ Idea
+--------------------------------------------------------
+
+In order to add sources choose:
+
+        File | Project Structure
+        Click Libraries tab
+        Pick library and click + icon
+        Find a JAR file containing sources.
