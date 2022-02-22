@@ -2,6 +2,7 @@
 
 #Java file to Class
 
+
 Class
 ---------------------------
     import java.util.ArrayList;
@@ -66,3 +67,9 @@ In order to add sources choose:
         Click Libraries tab
         Pick library and click + icon
         Find a JAR file containing sources.
+        
+        
+   Docker
+   =====================
+   
+       =>docker run --name SpringBootWebApp -p 8080:8080 -d imranmadbar/hello-world-java-maven-web-spring-boot
