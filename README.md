@@ -71,5 +71,5 @@ In order to add sources choose:
         
    Docker
    =====================
-   
+       =>docker pull imranmadbar/hello-world-java-maven-web-spring-boot
        =>docker run --name SpringBootWebApp -p 8080:8080 -d imranmadbar/hello-world-java-maven-web-spring-boot
