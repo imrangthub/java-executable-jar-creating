@@ -9,6 +9,7 @@ public class HelloWorldSpringBootWebApp extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HelloWorldSpringBootWebApp.class, args);
+		System.out.println("Spring Boot Web Application Run Successfully Done !");
 	}
 
 }
